@@ -21,6 +21,7 @@ class Series extends Component {
             .then(json => this.setState({ series: json, isFetching: false }));
         console.log(e);
         console.log(e.target.value);
+
     }
     render() {
         // Noteice this code below. it is assign the state properties to it's corrisponditing value
